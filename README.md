@@ -35,25 +35,11 @@ Le programme se base sur deux fichiers principaux :
 ---
 
 ## **Instructions d’Exécution**
-
-1. **Pré-requis :**
-   - Installez les bibliothèques nécessaires si elles ne sont pas déjà disponibles :
-     ```bash
-     pip install pandas numpy
-     ```
-
-2. **Exécution du programme :**
-   - Assurez-vous que les fichiers Excel nécessaires (**4-TableS1_augmented_with_FAO_data.xlsx** et **5-DataS2.xlsx**) sont dans le même répertoire que le script Python.
-   - Lancez le programme dans le terminal :
-     ```bash
-     python main.py
-     ```
-
-3. **Utilisation de l’interface graphique :**
+1. **Utilisation de l’interface graphique :**
    - Remplissez les champs affichés dans l’interface (poids, taille, etc.).
    - **Note :** Pour naviguer dans l’interface graphique, utilisez la barre de défilement située à droite (la molette de la souris ne permet pas le défilement sur la page).
 
-4. **Sortie des résultats :**
+2. **Sortie des résultats :**
    - Une fois les champs complétés, le programme génère un fichier Excel nommé **repas_possibles.xlsx**, contenant tous les repas possibles classés selon leur score environnemental.
 
 ---
